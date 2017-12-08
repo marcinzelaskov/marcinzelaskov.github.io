@@ -1,0 +1,76 @@
+* {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+html {
+	height: 1em;
+}
+a:hover {
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	text-decoration-color: black;
+}
+
+a  {
+	color: #000000;
+	text-decoration: none;
+	font-size: 1.5em;
+	letter-spacing: 0.25em;
+}
+
+.menu {
+	float: right;
+	margin: 0, auto;
+	padding: 1em;
+	-webkit-transition: ease-in-out;
+}
+
+.logo {
+	float: left;
+	margin: 0, auto;
+	padding: 1em;
+}
+
+.nav-bar {
+	height: 65px;
+	border-bottom: 3px solid #000000; 
+}
+
+body {
+	background-image: url(../imgs/main.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.about-body {
+	background-color: #ECE5DD
+}
+
+footer {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 0.2em;
+	border-top: 3px solid #000000;
+}
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
